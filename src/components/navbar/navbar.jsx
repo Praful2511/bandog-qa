@@ -1,6 +1,6 @@
 
   import React, { useState } from "react";
-import logo from "../../assets/logo.svg";
+import logo from "../../assests/logo.svg";
 import { HiMenuAlt3 } from "react-icons/hi";
 import { AiOutlineClose } from "react-icons/ai";
 import { Link } from "react-router-dom";
