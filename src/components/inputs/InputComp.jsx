@@ -15,7 +15,7 @@ const InputComp = ({
       <input
         type={type}
         {...props}
-        className="bg-[#121212] text-[18px] p-4 w-full pr-10 rounded-xl"
+        className="bg-[#121212] text-base p-5 w-full pr-10 rounded-xl"
       />
       {type === 'password' && (
         <div
