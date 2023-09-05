@@ -1,11 +1,8 @@
 import { Outlet } from "react-router-dom"
-import { Footer } from "../components/footer/footer"
 import { Navbar } from "../components/navbar/navbar"
 import {  useLocation, } from 'react-router-dom'
 
-export const MainLayout = () => {
-    const location = useLocation();
-    console.log(location.pathname) 
+export const AuthLayout = () => {
     return <>
         <div className="bg-mainBg min-h-screen">
             <div>
@@ -16,9 +13,6 @@ export const MainLayout = () => {
                     <Outlet />
                 </div>
             </div>
-           { <div className="">
-                <Footer />
-            </div>}
         </div>
     </>
 }

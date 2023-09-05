@@ -16,10 +16,10 @@ export const Navbar = (params) => {
   }
   return (
     <div className="w-full">
-      <div class="w-full bg-black justify-between p-2 items-center flex h-[82px] ">
+      <div className="w-full bg-black justify-between p-2 items-center flex h-[82px] ">
         <div className="w-full m-auto  flex justify-between ">
-          <div class=" lg:w-1/12 w-2/6 ml-7 flex items-center">
-            <img src={logo} class="object-fill" alt="logo" />
+          <div className=" lg:w-1/12 w-2/6 ml-7 flex items-center">
+            <img src={logo} className="object-fill" alt="logo" />
             <h1 className="text-[#DFE42F] font-bold text-[28px] ml-3">BANDOG</h1>
           </div>
  
