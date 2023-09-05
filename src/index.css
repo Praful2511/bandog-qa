@@ -45,6 +45,9 @@
 @layer base {
     :root {
         --sidebar-width: 16rem;
+        --primary-clr:rgba(222, 227, 47, 1);
+        --text-white:#fff;
+        --text-black:#000;
     }
 
     * {
@@ -112,4 +115,10 @@
   .black-screen.show {
     opacity: 1;
     pointer-events: visible;
+  }
+  .active{
+    /* background-color: var(--primary-clr); */
+    color:var(--primary-clr);
+    /* padding-inline: 1em;
+    padding-block: 0.5em; */
   }

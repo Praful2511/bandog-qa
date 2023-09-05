@@ -20,6 +20,7 @@ export const Routers = (params) => {
                         <Route  path="/login" element={<Login />} />
                         <Route path="/otp" element={<OTP />} />
                     </Route>
+                    <Route path='*' element={<>NOT FOUND</>} />
                 </Routes>
             </BrowserRouter>
         </>

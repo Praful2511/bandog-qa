@@ -1,10 +1,9 @@
 
-  import React, { useState } from "react";
+import React, { useState } from "react";
 import logo from "../../assets/logo.svg";
 import { HiMenuAlt3 } from "react-icons/hi";
 import { AiOutlineClose } from "react-icons/ai";
-import { Link } from "react-router-dom";
-
+import { Link, NavLink } from "react-router-dom";
 export const Navbar = (params) => {
   const [isOpen, setIsOpen] = useState(false);
   const [toggle, setToggle] = useState(false);
@@ -15,48 +14,70 @@ export const Navbar = (params) => {
     setToggle(!toggle);
   }
   return (
-    <div className="w-full">
-      <div className="w-full bg-black justify-between p-2 items-center flex h-[82px] ">
-        <div className="w-full m-auto  flex justify-between ">
-          <div className=" lg:w-1/12 w-2/6 ml-7 flex items-center">
-            <img src={logo} className="object-fill" alt="logo" />
-            <h1 className="text-[#DFE42F] font-bold text-[28px] ml-3">BANDOG</h1>
-          </div>
- 
-          
-         {isOpen? <div className="p-2 w-[150px] mt-[61px] font-inter ml-0 text-white absolute bg-black text-center ">
-            
-            <div className="mt-1">Home</div>
-           
-            <div className="mt-1">NFT collection</div>
-          
-            <div className="text-[#DFE42F] mt-1 underline flex m-auto w-fit underline-offset-8">
-              <div>login</div>
-              <div>/</div>
-              <div>Signup</div>
-            </div>
-          </div>:<div className= "hidden lg:flex mr-10  text-white w-[30%] justify-between items-center">
-            <div></div>
-            <div>Home</div>
-            <div>NFT collection</div>
-            <div className="text-[#DFE42F] underline flex underline-offset-8">
-              <div>login</div>
-              <div>/</div>
-              <div>Signup</div>
-            </div>
-          </div>}
-          <div className="p-3 block sm:flex lg:hidden" onClick={handleNav}>
-            {!isOpen ? (
-              <HiMenuAlt3 size={20} color="white" />
-            ) : (
-              <AiOutlineClose size={20} color="white" />
-            )}
-          </div>
+    <nav className="justify-between px-4 lg:px-8 3xl:px-10 items-center flex h-[82px]">
+      <div className="container mx-auto flex justify-between items-center">
+        <div className="flex  font-bold">
+          <img src={logo} className="object-fill" alt="logo" />
+          <h1 className="text-[#DFE42F] font-bold text-[28px] ml-3">BANDOG</h1>
+
+        </div>
+
+        <div className="hidden md:flex space-x-4 items-center">
+          <NavLink
+            to="/"
+            className={({ isActive, isPending }) =>
+              isPending ? "pending" : isActive ? "active" : ""
+            }
+          >
+          <span className=" hover:text-gray-300">Home</span>
+          </NavLink>
+          <NavLink
+            to="/nft-collection"
+            className={({ isActive, isPending }) =>
+              isPending ? "pending" : isActive ? "active" : ""
+            }
+          >
+          <span className=" hover:text-gray-300">NFT collection</span>
+          </NavLink>
+          <NavLink
+            to="/mynft"
+            className={({ isActive, isPending }) =>
+              isPending ? "pending" : isActive ? "active" : ""
+            }
+          >
+          <span className=" hover:text-gray-300">My NFT</span>
+          </NavLink>
+          <NavLink
+            to="/login"
+            className={({ isActive, isPending }) =>
+            isPending ? "pending" : isActive ? "" : ""
+          }
+          >
+          <span className=" hover:text-gray-300">Login</span>
+          </NavLink>
+        </div>
+
+        {/* Mobile Menu Button */}
+        <div className="md:hidden">
+          <button className=" hover:text-gray-300">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M4 6h16M4 12h16M4 18h16"
+              />
+            </svg>
+          </button>
         </div>
       </div>
-     
-        
-    </div>
+    </nav>
   );
 };
 
