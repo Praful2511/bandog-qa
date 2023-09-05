@@ -1,13 +1,13 @@
 import React from "react";
-import star1 from "../../assests/Star 1.svg";
-import star2 from "../../assests/Star 2.svg";
-import arrow1 from "../../assests/Arrow 1.svg";
-import group43 from "../../assests/Group 43.svg";
+import star1 from "../../assests/StarOne.svg";
+import star2 from "../../assests/StarTwo.svg";
+import arrow1 from "../../assests/ButtonArrow.svg";
+import group43 from "../../assests/CoverPageGroup.svg";
 
 const CoverPage = () => {
   return (
     <div className="bg-black text-white  flex justify-center ">
-      <div className="w-full flex flex-col md:flex-row md:justify-between md:mt-16 ">
+      <div className="w-full flex flex-col md:flex-row md:justify-between md:mt-16 mb-20 ">
         <div className="w-full lg:w-[752px] md:w-[600px] text-center md:text-left mb-6">
           <div className="font-inter text-3xl md:text-5xl lg:text-6xl font-extrabold mb-10 relative">
             <span className="leading-10 ">
@@ -35,8 +35,11 @@ const CoverPage = () => {
           </button>
         </div>
 
-        <div className="w-full md:w-2/5 2xl:1/5 mt-8 md:mt-0  md:mb-5 mb-5">
+        <div className="w-full md:w-2/5 2xl:1/5 mt-8 md:mt-0  md:mb-5 ">
           <img src={group43} alt="" className="w-full" />
+        </div>
+        <div>
+            
         </div>
       </div>
     </div>
