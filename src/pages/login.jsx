@@ -1,3 +1,8 @@
+import LoginCard from "../components/loginCard"
+
 export const Login = (params) => {
-    return <h1>Login</h1>
+    return <div className="flex items-center justify-center">
+        <LoginCard/>
+    </div>
+
 }

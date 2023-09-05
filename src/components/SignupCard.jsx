@@ -1,5 +1,5 @@
 import React from 'react'
-import InputComp from './InputComp'
+import InputComp from './inputs/InputComp'
 
 const SignupCard = () => {
   return (
