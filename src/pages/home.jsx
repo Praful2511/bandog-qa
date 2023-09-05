@@ -1,3 +1,7 @@
+import FeatureSection from "../components/homeComponents/featureSection"
+
 export const Home = () => {
-  return <h1 className="bg-primary">Home</h1>  
+  return <>
+  <FeatureSection/>
+  </>  
 }
