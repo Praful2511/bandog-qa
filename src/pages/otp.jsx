@@ -60,7 +60,7 @@ export const OTP = (params) => {
           ))}
         </div>
         <div className="mt-5 ml-7">
-        <button className="w-full bg-[#DFE42F] text-black text-[20px] h-[56px] font-[500]  rounded-xl font-semibold transition-all duration-100 ease-in-out hover:bg-[#b7c644]  ">
+        <button className="w-full bg-[#DFE42F] text-black text-[20px] h-[56px]   rounded-xl font-semibold transition-all duration-100 ease-in-out hover:bg-[#b7c644]  ">
         Verify OTP & Sign Up
 
         </button>
