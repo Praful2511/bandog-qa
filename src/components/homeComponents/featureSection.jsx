@@ -1,19 +1,19 @@
 import React from 'react'
-import diamond from "../../assests/sectionTAF.svg";
-import star from "../../assests/sectionTAFi.svg";
-import key from "../../assests/sectionTAO.svg";
-import anchor from "../../assests/sectionTAT.svg";
+import key from "../../assets/sectionTAF.svg";
+import anchor from "../../assets/sectionTAFi.svg";
+import star from "../../assets/sectionTATh.svg";
+import diamond from "../../assets/sectionTAT.svg";
 const FeatureSection = () => {
   return (
-    <div className='borderw-[95%]'>
-        <div className="w-full  bg-black ">
-        <div className=" m-auto p-2  font-inter">
-          <h1 className="text-white font-sans w-fit  ml-2 text-[22px] md:text-[30px] lg:text-[49px]">
+    <div className='w-full m-auto'>
+        <div className="w-full m-auto bg-black ">
+        <div className=" m-auto  font-inter">
+          <h1 className="text-white font-sans w-fit text-[22px] md:text-[30px] lg:text-[49px]">
             Our Feature
           </h1>
 
-          <div className=" sm:grid-cols-1 md:grid-cols-2 grid lg:grid-cols-4 gap-10">
-            <div className="text-white w-[300px] items-center  p-4">
+          <div className=" sm:grid-cols-1 md:grid-cols-2 grid lg:grid-cols-4  m-auto object-cover">
+            <div className="text-white w-[300px] items-center text-center  p-4">
               <div className="bg-white w-[172px] h-[172px] bg-opacity-[0.07] m-auto p-10 rounded-full">
                 <div className="opacity-100">
                   <img
@@ -23,15 +23,15 @@ const FeatureSection = () => {
                   />
                 </div>
               </div>
-              <div className="h-[70px] items-center  text-[25px] text-center mt-2">
+              <div className="h-[70px] items-center w-[90%]  text-[25px]  mt-2">
                 Unique
               </div>
-              <div className="w-[90%] m-auto opacity-[0.7] text-[16px]">
+              <div className=" m-auto opacity-[0.7] text-[16px]">
                 Lorem ipsum dolor sit amet consectetur. Quam integer aliquam
                 odio urna leo a imperdiet
               </div>
             </div>
-            <div className="text-white w-[300px] items-center  p-4">
+            <div className="text-white w-[300px] items-center  text-center p-4">
               <div className="bg-white w-[172px] h-[172px] bg-opacity-[0.07] m-auto p-10 rounded-full">
                 <div className="opacity-100">
                   <img
@@ -44,12 +44,12 @@ const FeatureSection = () => {
               <div className="h-[70px] text-[25px] items-center mt-2">
                 Ownership
               </div>
-              <div className=" w-[90%] m-auto opacity-[0.7] text-[16px]">
+              <div className=" m-auto opacity-[0.7] text-[16px]">
                 Lorem ipsum dolor sit amet consectetur. Quam integer aliquam
                 odio urna leo a imperdiet
               </div>
             </div>
-            <div className="text-white w-[300px] items-center  p-4">
+            <div className="text-white w-[300px] items-center text-center p-4">
               <div className="bg-white w-[172px] h-[172px] bg-opacity-[0.07] m-auto p-10 items-center rounded-[100%]">
                 <div className="opacity-100   ">
                   <img
@@ -60,15 +60,15 @@ const FeatureSection = () => {
                   />
                 </div>
               </div>
-              <div className="h-[70px] items-center text-[25px] mt-2">
+              <div className="h-[70px] items-center w-[90%] text-[25px] mt-2">
                 Digitally Scarce Resource
               </div>
-              <div className=" w-[90%] m-auto opacity-[0.7] text-[16px]">
+              <div className="  m-auto opacity-[0.7] text-[16px]">
                 Lorem ipsum dolor sit amet consectetur. Quam integer aliquam
                 odio urna leo a imperdiet
               </div>
             </div>
-            <div className="text-white w-[300px] items-center  p-4">
+            <div className="text-white w-[300px] items-center text-center p-4">
               <div className="bg-white w-[172px] h-[172px] bg-opacity-[0.07] m-auto p-10 rounded-full object-fill">
                 <div className="opacity-100">
                   <img
@@ -78,10 +78,10 @@ const FeatureSection = () => {
                   />
                 </div>
               </div>
-              <div className=" h-[70px] items-center text-[25px] mt-2">
+              <div className=" h-[70px] items-center w-[90%]  text-[25px] mt-2">
                 Indivisible
               </div>
-              <div className=" w-[90%] m-auto opacity-[0.7] text-[16px]">
+              <div className=" m-auto opacity-[0.7] text-[16px]">
                 Lorem ipsum dolor sit amet consectetur. Quam integer aliquam
                 odio urna leo a imperdiet
               </div>
