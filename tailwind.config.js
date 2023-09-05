@@ -5,7 +5,7 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     fontFamily: {
-      "product-sans": "product-sans",
+      "inter": "inter",
     },
     colors: {
       white: "white",

@@ -1,8 +1,9 @@
 
   import React, { useState } from "react";
-import logo from "../../assests/logo.svg";
+import logo from "../../assets/logo.svg";
 import { HiMenuAlt3 } from "react-icons/hi";
 import { AiOutlineClose } from "react-icons/ai";
+import { Link } from "react-router-dom";
 
 export const Navbar = (params) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,7 +19,7 @@ export const Navbar = (params) => {
       <div class="w-full bg-black justify-between p-2 items-center flex h-[82px] ">
         <div className="w-full m-auto  flex justify-between ">
           <div class=" lg:w-1/12 w-2/6 ml-7 flex items-center">
-            <img src={logo} class="object-fill" alt="logo" />
+            <Link to={"/"}><img src={logo} class="object-fill" alt="logo" /></Link>
             <h1 className="text-[#DFE42F] font-bold text-[28px] ml-3">BANDOG</h1>
           </div>
  

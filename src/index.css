@@ -48,7 +48,7 @@
     }
 
     * {
-        @apply font-product-sans;
+        @apply font-inter;
     }
 
     html,
