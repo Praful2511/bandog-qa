@@ -1,6 +1,6 @@
 import React, { useState, useRef } from "react";
 import backArrow from "../assests/backArrow.svg";
-import { PrimaryButton } from "../components/buttons/primaryButton";
+import { PrimaryButton } from "./buttons/primaryButton";
 
 export const OtpCard = (props) => { // Receive the props parameter
   const [otp, setOtp] = useState(["", "", "", ""]); 

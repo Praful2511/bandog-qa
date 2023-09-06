@@ -1,6 +1,6 @@
 import React from "react";
 
-import { OtpCard } from "../components/optCard";
+import { OtpCard } from "../components/otpCard";
 export const OTP = (params) => {
   return (
     <div>
