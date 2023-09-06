@@ -5,7 +5,7 @@ import star from "../../assests/sectionTATh.svg";
 import diamond from "../../assests/sectionTAT.svg";
 const FeatureSection = () => {
   return (
-    <div className='w-full m-auto'>
+    <div className=' px-4 lg:px-8 3xl:px-10 pt-8 sm:pt-10 pb-10 w-full m-auto'>
         <div className="w-full m-auto bg-black ">
         <div className=" m-auto  font-inter">
           <h1 className="text-white font-sans w-fit text-[22px] md:text-[30px] lg:text-[49px]">

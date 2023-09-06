@@ -5,7 +5,7 @@ import dogtwo from "../../assests/dogAssests/dogCardTwo.png";
 import dogthree from "../../assests/dogAssests/dogCardTheree.png";
 const CollectionSection = () => {
   return (
-    <div>
+    <div className='px-4 lg:px-8 3xl:px-10 pt-8 sm:pt-10 pb-10 '>
         <div className="bg-black text-white">
         <div className=" m-auto">
           <h1 className="w-fit text-md md:text-xl lg:text-[49px]">Our Collection</h1>
