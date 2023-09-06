@@ -6,10 +6,10 @@
 export const Footer = (params) => {
   
   return (
-    <div className="px-4 lg:px-8 3xl:px-10 pt-8 sm:pt-10 pb-10 ">
+    <div className="px-4 lg:px-24 3xl:px-10 pt-8 sm:pt-10 pb-10 ">
       <div className="bg-[#DFE42F] m-auto h-[2px] "></div>
-      <div className="lg:flex items-center justify-between border mt-10 ">
-      <div className="md:flex lg:flex items-center md:w-[70%] m-auto sm:m-auto lg:m-0  lg:w-[31%] justify-between">
+      <div className="lg:flex items-center justify-between  mt-10 ">
+      <div className="md:flex lg:flex items-center md:w-[70%] m-auto sm:m-auto lg:m-0  lg:w-[35%] justify-between">
         <div className="flex items-center">
           <img src={whitlogo} alt="" />
           <h1 className="text-[39px] font-[700] ml-2  ">BANDOG</h1>
@@ -17,7 +17,7 @@ export const Footer = (params) => {
         <div className="ml-12  text-sm font-[500]">HOME</div>
         <div className="ml-12 text-sm font-[500]">NFT collection</div>
       </div>
-      <div className="flex justify-between md:w-3/6 mt-5 sm:w-full md:m-auto sm:m-auto lg:m-0 lg:w-[20%]">
+      <div className="flex justify-between md:w-3/6 mt-5 sm:w-full md:m-auto sm:m-auto lg:m-0 lg:w-[22%]">
         <div className="w-[62px]">
           <img className="w-full" src={insta} alt="error" />
         </div>
