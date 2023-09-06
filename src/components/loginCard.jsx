@@ -17,7 +17,7 @@ const LoginCard = () => {
         <InputComp type={"password"} placeholder={"Password"} />
       </div>
       <div className="text-[#DFE42F]  mt-3 w-full flex justify-end  ">
-        <span className=" text-base    cursor-pointer"> Reset Password</span>
+        <Link to="/forgetpassword" className=" text-base    cursor-pointer"> Reset Password</Link>
       </div>
       <div className="mt-12">
         <PrimaryButton fontSize={20} height={52} >Login</PrimaryButton>

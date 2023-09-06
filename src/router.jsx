@@ -11,6 +11,10 @@ import { BankDetailPage } from "./components/bankComponent/bankComponent";
 import { ProfilePage } from "./pages/profilePage";
 import { MyNfts } from "./components/profileComponents/mynfts";
 import { CooldownNfts } from "./components/profileComponents/cooldownNfts";
+import ForgetPassword from "./pages/forgetPassword";
+import ForgetPasswordOTP from "./pages/forgetPasswordOTP";
+import ResetPassword from "./pages/updatePassword";
+import UpdatePassword from "./pages/updatePassword";
 
 export const Routers = (params) => {
     return (
@@ -32,6 +36,9 @@ export const Routers = (params) => {
                         <Route path="/signup" element={<Signup />} />
                         <Route path="/login" element={<Login />} />
                         <Route path="/otp" element={<OTP />} />
+                        <Route  path="/forgetpassword" element={<ForgetPassword/>} />
+                        <Route path="/forgetpasswordotp" element={<ForgetPasswordOTP/>}/>
+                        <Route path="/updatepassword" element={<UpdatePassword />}/>
                     </Route>
                     <Route path='*' element={<>NOT FOUND</>} />
                 </Routes>

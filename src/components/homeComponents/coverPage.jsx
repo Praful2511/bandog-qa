@@ -6,8 +6,8 @@ import group43 from "../../assests/CoverPageGroup.svg";
 
 const CoverPage = () => {
   return (
-    <div className="bg-black text-white  flex justify-center ">
-      <div className="w-full flex flex-col md:flex-row md:justify-between md:mt-16 mb-20 ">
+   
+      <div className="w-full flex flex-col md:flex-row md:justify-between  px-4 lg:px-24 3xl:px-10 pt-8 sm:pt-10 pb-20 md:mt-20  mt-4">
         <div className="w-full lg:w-[752px] md:w-[600px] text-center md:text-left mb-6">
           <div className="font-inter text-3xl md:text-5xl lg:text-6xl font-extrabold mb-10 relative">
             <span className="leading-10 ">
@@ -35,14 +35,16 @@ const CoverPage = () => {
           </button>
         </div>
 
-        <div className="w-full md:w-2/5 2xl:1/5 mt-8 md:mt-0  md:mb-5 ">
+        {/* <div className="w-full md:w-2/5 2xl:1/5 mt-8 md:mt-0  md:mb-5 md:flex">
           <img src={group43} alt="" className="w-full" />
+        </div> */}
+        <div className="flex justify-center items-center md:justify-end xl:justify-end md:mt-0 mt-10">
+          
+          <img src={group43} alt="" className="w-4/5 md:w-4/5 2xl:w-4/5" />
         </div>
-        <div>
-            
-        </div>
+        
       </div>
-    </div>
+   
   );
 };
 
