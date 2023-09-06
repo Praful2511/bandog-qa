@@ -32,7 +32,7 @@ export const Navbar = (params) => {
           <span className=" hover:text-gray-300">Home</span>
           </NavLink>
           <NavLink
-            to="/nft-collection"
+            to="/collection"
             className={({ isActive, isPending }) =>
               isPending ? "pending" : isActive ? "active" : ""
             }
@@ -40,7 +40,7 @@ export const Navbar = (params) => {
           <span className=" hover:text-gray-300">NFT collection</span>
           </NavLink>
           <NavLink
-            to="/mynft"
+            to="/profile"
             className={({ isActive, isPending }) =>
               isPending ? "pending" : isActive ? "active" : ""
             }
