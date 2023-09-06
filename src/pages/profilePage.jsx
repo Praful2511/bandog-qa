@@ -6,7 +6,7 @@ import { MyNfts } from "../components/profileComponents/mynfts";
 import { CooldownNfts } from "../components/profileComponents/cooldownNfts";
 
 export const ProfilePage = (params) => {
-  const tabLabels = ["My NFT", " NFTs in cooldown period"];
+  const tabLabels = ["My NFT", "NFTs in cooldown period"];
   const tabContent = [<MyNfts />, <CooldownNfts />];
   return (
     <div className="px-4 md:px-8 lg:px-24 pt-8 sm:pt-10 pb-10">
