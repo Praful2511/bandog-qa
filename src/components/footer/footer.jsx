@@ -1,8 +1,8 @@
- import whitlogo  from "../../assests/logoWhite.svg"
- import insta from "../../assests/instaLogo.svg";
- import twiteer from "../../assests/twiteerLogo.svg";
- import facebook from "../../assests/facebookLogo.svg";
- import linkdin from "../../assests/linkdinLogo.svg";
+ import whitlogo  from "../../assets/logoWhite.svg"
+ import insta from "../../assets/instaLogo.svg";
+ import twiteer from "../../assets/twiteerLogo.svg";
+ import facebook from "../../assets/facebookLogo.svg";
+ import linkdin from "../../assets/linkdinLogo.svg";
 export const Footer = (params) => {
   
   return (

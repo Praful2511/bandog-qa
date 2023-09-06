@@ -1,4 +1,4 @@
-import dogone from "../../assests/dogAssests/dogCardOne.png";
+import dogone from "../../assets/dogassests/dogCardOne.png";
 
 export const CooldownNfts = () => {
   const dogArray = new Array(8).fill(""); 

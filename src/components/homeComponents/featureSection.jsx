@@ -1,8 +1,8 @@
 import React from 'react'
-import key from "../../assests/sectionTAF.svg";
-import anchor from "../../assests/sectionTAFi.svg";
-import star from "../../assests/sectionTATh.svg";
-import diamond from "../../assests/sectionTAT.svg";
+import key from "../../assets/sectionTAF.svg";
+import anchor from "../../assets/sectionTAFi.svg";
+import star from "../../assets/sectionTATh.svg";
+import diamond from "../../assets/sectionTAT.svg";
 const FeatureSection = () => {
   return (
     <div className=' px-4 lg:px-24 3xl:px-10 pt-8 sm:pt-10 pb-10 m-auto'>

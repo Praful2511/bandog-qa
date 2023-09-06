@@ -1,5 +1,5 @@
 import React from "react";
-import rectangle3 from "../../assests/demoNFT.svg";
+import rectangle3 from "../../assets/demoNFT.svg";
 import { PrimaryButton } from "../buttons/primaryButton";
 const InfoNFT = () => {
   return (

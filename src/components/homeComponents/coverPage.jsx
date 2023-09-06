@@ -1,8 +1,8 @@
 import React from "react";
-import star1 from "../../assests/StarOne.svg";
-import star2 from "../../assests/StarTwo.svg";
-import arrow1 from "../../assests/ButtonArrow.svg";
-import group43 from "../../assests/CoverPageGroup.svg";
+import star1 from "../../assets/StarOne.svg";
+import star2 from "../../assets/StarTwo.svg";
+import arrow1 from "../../assets/ButtonArrow.svg";
+import group43 from "../../assets/CoverPageGroup.svg";
 
 const CoverPage = () => {
   return (

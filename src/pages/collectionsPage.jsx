@@ -1,41 +1,38 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import dogone from '../assests/dogAssests/dogCardOne.png';
+import dogone from '../assets/dogassests/dogCardOne.png';
+import InputComp from '../components/inputs/InputComp';
 
 export const CollectionPage = (params) => {
   const dogArray = new Array(16).fill('');
 
   return (
     <div className="px-4 lg:px-24 3xl:px-10 pt-8 sm:pt-10 pb-10 ">
-      <div className="h-[210px] border bg-opacity-[0.07] bg-white">
+      <div className="h-[210px]  bg-opacity-[0.07] bg-white">
         <h1 className="text-[49px] mt-28">NFT Collection</h1>
       </div>
       <div className="flex flex-wrap justify-between items-center mt-4 md:mt-8">
         <div className="w-full md:w-auto md:flex-shrink-0 md:mr-4">
-          <p className="md:text-lg">2,664</p>
+          <p className="md:text-lg">2,664  Results</p>
         </div>
         <div className="w-full md:w-64 md:flex-shrink-0 mt-4 md:mt-0">
-          <input
-            type="text"
-            placeholder="Search by name"
-            className="w-full border p-2 rounded-md"
-          />
+          <InputComp placeholder={"Search By Name"}/>
         </div>
         <div className="w-full md:w-auto mt-4 md:mt-0">
           <p className="md:text-lg">Filter by:</p>
         </div>
         <div className="w-full md:w-64 md:flex-shrink-0 mt-4 md:mt-0">
-          <select name="" id="" className="w-full border p-2 rounded-md">
+          <select name="Tear" id="" placeholder='Tear' className="w-full text-white bg-white-shade-20 p-2 rounded-md">
           
           </select>
         </div>
         <div className="w-full md:w-64 md:flex-shrink-0 mt-4 md:mt-0">
-          <select name="" id="" className="w-full border p-2 rounded-md">
+          <select name="" id="" className="w-full  p-2 rounded-md">
            
           </select>
         </div>
       </div>
-      <div className="flex flex-wrap gap-8   mt-4 md:mt-8 border">
+      <div className="flex flex-wrap gap-8   mt-4 md:mt-8 ">
 
         {dogArray.map((item, i) => (
               <Link to="/collection/1">
@@ -60,12 +57,7 @@ export const CollectionPage = (params) => {
           </div></Link>
         ))}
       </div>
-      <div>page</div>
-      <h1>CollectionPage</h1>
-      <div className="productsNav">
       
-        <Link to="/collection/1/bank">bank</Link>
-      </div>
     </div>
   );
 };

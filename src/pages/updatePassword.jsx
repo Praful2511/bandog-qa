@@ -1,6 +1,6 @@
 import React from 'react'
 import { PrimaryButton } from '../components/buttons/primaryButton'
-import backArrow from "../assests/backArrow.svg";
+import backArrow from "../assets/backArrow.svg";
 import InputComp from '../components/inputs/InputComp';
 import { Link } from 'react-router-dom';
 const UpdatePassword = () => {

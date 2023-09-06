@@ -1,6 +1,6 @@
 import { NavLink, Outlet } from "react-router-dom";
 import { PrimaryButton } from "../components/buttons/primaryButton";
-import transactionArrow from "../assests/transactionArrow.svg";
+import transactionArrow from "../assets/transactionArrow.svg";
 import Tab from "../components/tab";
 import { MyNfts } from "../components/profileComponents/mynfts";
 import { CooldownNfts } from "../components/profileComponents/cooldownNfts";

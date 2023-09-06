@@ -1,8 +1,8 @@
 
 import React from 'react'
-import dogone from "../../assests/dogAssests/dogCardOne.png";
-import dogtwo from "../../assests/dogAssests/dogCardTwo.png";
-import dogthree from "../../assests/dogAssests/dogCardTheree.png";
+import dogone from "../../assets/dogassests/dogCardOne.png";
+import dogtwo from "../../assets/dogassests/dogCardTwo.png";
+import dogthree from "../../assets/dogassests//dogCardTheree.png";
 const CollectionSection = () => {
   return (
     <div className='px-4 lg:px-24 3xl:px-10 pt-8 sm:pt-10 pb-10 '>

@@ -1,5 +1,5 @@
 import React, { useState, useRef } from "react";
-import backArrow from "../assests/backArrow.svg";
+import backArrow from "../assets/backArrow.svg";
 import { PrimaryButton } from "./buttons/primaryButton";
 
 export const OtpCard = (props) => { // Receive the props parameter
