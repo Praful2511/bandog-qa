@@ -1,4 +1,4 @@
-import dogone from "../../assets/dogassests/dogCardOne.png";
+import dogtwo from "../../assets/dogassests/dogCardTwo.png";
 export const MyNfts = () => {
   const dogArray = new Array(8).fill("");
 
@@ -7,7 +7,7 @@ export const MyNfts = () => {
       {dogArray.map((item, i) => (
         <div className="mt-5 bg-white-shade-10  bg-opacity-[0.07] w-[306px] rounded-lg p-1">
           <div className="shadow-lg p-1 rounded-lg overflow-hidden">
-            <img src={dogone} alt="" className="w-full h-auto" />
+            <img src={dogtwo} alt="" className="w-full h-auto" />
           </div>
           <div className="w-fit font-[400] p-2 text-base">Tier 2</div>
           <div className="flex w-full justify-between p-2">
