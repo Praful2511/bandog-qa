@@ -2,7 +2,7 @@ import React, { useState, useRef } from "react";
 import backArrow from "../assets/backArrow.svg";
 import { PrimaryButton } from "./buttons/primaryButton";
 
-export const OtpCard = (props) => { // Receive the props parameter
+export const OtpCard = (props) => {
   const [otp, setOtp] = useState(["", "", "", ""]); 
   const inputRefs = [useRef(null), useRef(null), useRef(null), useRef(null)];
 
@@ -63,7 +63,7 @@ export const OtpCard = (props) => { // Receive the props parameter
         </div>
         <div className="mt-10 ml-7">
           <PrimaryButton fontSize={20} height={52}>
-            {props.buttonText} {/* Access the buttonText prop */}
+            {props.buttonText} 
           </PrimaryButton>
         </div>
       </div>

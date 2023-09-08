@@ -9,11 +9,11 @@ const ForgetPassword = () => {
       <div className="text-white  w-[395px] m-auto">
         <div className="flex items-center">
           <Link to="/login"> <img src={backArrow} alt="error" /> </Link>
-          <h4 className="text-[24px] font-[600] ml-2">Enter OTP</h4>
+          <h4 className="text-[24px] font-[600] ml-2">Forget Password </h4>
         </div>
         <div>
           <p className="text-[14px] font-[400] mt-2 ml-7 opacity-[0.7]">
-            Enter OTP that sent on your email
+            Enter email to get OTP
           </p>
         </div>
         <div className='mt-6 ml-7'>
@@ -22,7 +22,7 @@ const ForgetPassword = () => {
         </div>
         
         <div className="mt-10 ml-7">
-          <PrimaryButton fontSize={20} height={52}>
+          <PrimaryButton fontSize={20} height={52}> 
              Send OTP
           </PrimaryButton>
         </div>
