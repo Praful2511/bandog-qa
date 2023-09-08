@@ -19,6 +19,7 @@ export const PrimaryButton = ({
         height: typeof height === "number" ? pxToEm(height) : height,
         borderRadius: pxToEm(radius),
         fontSize: pxToEm(fontSize),
+        
       };
 
     return (

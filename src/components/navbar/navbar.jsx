@@ -14,9 +14,10 @@ export const Navbar = (params) => {
     setToggle(!toggle);
   }
   return (
+    
     <div className=" w-full px-4 lg:px-24 3xl:px-10 pt-8 sm:pt-10 pb-10 items-center flex h-[82px]">
       <div className="w-full mx-auto flex justify-between items-center">
-        <div className="flex  font-bold">
+        <div className="flex  font-bold"> 
           <img src={logo} className="object-fill" alt="logo" />
           <h1 className="text-[#DFE42F] font-bold text-[28px] ml-3">BANDOG</h1>
 
