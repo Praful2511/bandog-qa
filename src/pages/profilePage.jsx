@@ -39,45 +39,13 @@ export const ProfilePage = (params) => {
 
       <div className="flex mt-12 ">
         <Tab labels={tabLabels} content={tabContent} />
-        {/* <NavLink
-          to="/profile"
-          activeClassName=" opacity-60 hover:opacity-100 underline decoration-[#f3f34c]"
-        >
-          <p className="opacity-60 hover:opacity-100">My NFT</p>
-        </NavLink>
-        <NavLink
-          to="/profile/my-cooldown-nft"
-          activeClassName="underline decoration-[#f3f34c]"
-          className="ml-10"
-        >
-          <p className="opacity-60 hover:opacity-100">
-          NFTs in cooldown period
-            
-          </p>
-        </NavLink> */}
-        {/* <NavLink
-          to="/profile"
-          className={({ isActive, isPending }) =>
-            isPending ? "pending" : isActive ? "active" : ""  
-          }
-        >
-          <span className=" hover:text-gray-300">My NFT </span>
-        </NavLink>
-       
-        <NavLink
-          to="/profile/my-cooldown-nft"
-          className={({ isActive, isPending }) =>
-            isPending ? "pending" : isActive ? "active" : ""
-          }
-        >
-          <span className=" hover:text-gray-300"> NFTs in cooldown period</span>
-        </NavLink> */}
+        
       </div>
       
       <div>
-        <Outlet />
+        {/* <Outlet /> */}
       </div>
-      {/* <div>tabs</div> */}
+      
     </div>
   );
 };

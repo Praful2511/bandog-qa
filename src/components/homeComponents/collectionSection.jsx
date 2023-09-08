@@ -2,7 +2,7 @@
 import React from 'react'
 import dogone from "../../assets/dogassests/dogCardOne.png";
 import dogtwo from "../../assets/dogassests/dogCardTwo.png";
-import dogthree from "../../assets/dogassests//dogCardTheree.png";
+import dogthree from "../../assets/dogassests//dogCardThree.png";
 const CollectionSection = () => {
   return (
     <div className='px-4 lg:px-24 3xl:px-10 pt-8 sm:pt-10 pb-10 '>

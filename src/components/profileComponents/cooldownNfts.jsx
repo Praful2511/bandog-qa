@@ -1,4 +1,4 @@
-import dogone from "../../assets/dogassests/dogCardOne.png";
+import dogThree from "../../assets/dogassests/dogCardThree.png";
 
 export const CooldownNfts = () => {
   const dogArray = new Array(8).fill(""); 
@@ -17,7 +17,7 @@ export const CooldownNfts = () => {
           </div>
 
           <div className="shadow-lg p-1 rounded-lg overflow-hidden">
-            <img src={dogone} alt="" className="w-full h-auto" />
+            <img src={dogThree} alt="" className="w-full h-auto" />
           </div>
           <div className="w-fit font-[600] p-2 text-base">Tier 2</div>
           <div className="flex w-full justify-between p-2">
