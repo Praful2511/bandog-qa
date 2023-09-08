@@ -7,11 +7,16 @@ export const CollectionPage = (params) => {
   const dogArray = new Array(16).fill('');
 
   return (
-    <div className="px-4 lg:px-24 3xl:px-10 pt-8 sm:pt-10 pb-10 ">
-      <div className="h-[210px]  bg-opacity-[0.07] bg-white">
-        <h1 className="text-[49px] mt-28">NFT Collection</h1>
+    <div>
+    <div className="h-[210px]  bg-opacity-[0.07] bg-white">
+      <div className='px-4 lg:px-24 3xl:px-10 pt-8 sm:pt-10 pb-10'>
+      <h1 className="text-[49px] mt-20">NFT Collection</h1>
       </div>
-      <div className="flex flex-wrap justify-between items-center mt-4 md:mt-8">
+        
+      </div>
+    <div className="px-4 lg:px-24 3xl:px-10 pt-8 sm:pt-10 pb-10 ">
+      
+      <div className="flex flex-wrap justify-between items-center ">
         <div className="w-full md:w-auto md:flex-shrink-0 md:mr-4">
           <p className="md:text-lg">2,664  Results</p>
         </div>
@@ -32,7 +37,7 @@ export const CollectionPage = (params) => {
           </select>
         </div>
       </div>
-      <div className="flex flex-wrap gap-8   mt-4 md:mt-8 ">
+      <div className="flex flex-wrap gap-8    ">
 
         {dogArray.map((item, i) => (
               <Link to="/collection/1">
@@ -57,7 +62,7 @@ export const CollectionPage = (params) => {
           </div></Link>
         ))}
       </div>
-      
+      </div>
     </div>
   );
 };
